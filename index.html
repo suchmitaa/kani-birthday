@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Happy Birthday Kaniii 💖✨</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Pinyon+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Audio Element -->
+    <audio id="bg-music" loop>
+        <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Floating Background Elements Container -->
+    <div id="particles-container"></div>
+
+    <!-- Intro / Landing Screen -->
+    <section id="landing-screen" class="screen active">
+        <div class="intro-content">
+            <h1 class="fade-in">Hey Kaniii 👀💖</h1>
+            <p class="slide-up">I have something special for you...</p>
+            <button id="open-gift-btn" class="gift-btn">Open Your Gift 🎁</button>
+        </div>
+    </section>
+
+    <!-- Main Surprise Page -->
+    <section id="surprise-page" class="screen hidden">
+        <div class="content-wrapper">
+            <!-- Message Section -->
+            <div id="message-container" class="message-box">
+                <div id="typing-text"></div>
+            </div>
+
+            <!-- Gallery/Slideshow Section -->
+            <div class="gallery-section fade-in-section">
+                <h2>Our Memories 📸✨</h2>
+                <div class="gallery-container">
+                    <div class="slideshow">
+                        <img src="mem1.jpg" alt="Memory 1" class="slide active">
+                        <img src="mem2.jpg" alt="Memory 2" class="slide">
+                        <img src="mem3.jpg" alt="Memory 3" class="slide">
+                        <img src="mem4.jpg" alt="Memory 4" class="slide">
+                        <img src="mem5.jpg" alt="Memory 5" class="slide">
+                        <img src="mem6.jpg" alt="Memory 6" class="slide">
+                        <img src="mem7.jpg" alt="Memory 7" class="slide">
+                        <img src="mem8.jpg" alt="Memory 8" class="slide">
+                        <img src="mem9.jpg" alt="Memory 9" class="slide">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Countdown Timer -->
+            <div class="countdown-section fade-in-section">
+                <h3>Birthday Countdown 🎂</h3>
+                <div id="timer" class="timer-display">
+                    <div class="time-block"><span id="days">00</span><small>Days</small></div>
+                    <div class="time-block"><span id="hours">00</span><small>Hours</small></div>
+                    <div class="time-block"><span id="minutes">00</span><small>Mins</small></div>
+                    <div class="time-block"><span id="seconds">00</span><small>Secs</small></div>
+                </div>
+                <p>1 Month to go! 💖</p>
+            </div>
+
+            <!-- Final Thank You Section -->
+            <div class="thank-you-section fade-in-section">
+                <h2 class="cursive">Thank You for being in my life 💖</h2>
+                <button id="replay-btn" class="replay-btn">Replay 🔁</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
